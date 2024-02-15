@@ -1,6 +1,7 @@
 ---
 layout: default
-order: 30
+chapitre: conclusion
+order: 7
 ---
 <!--  -->
 

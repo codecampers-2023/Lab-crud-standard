@@ -1,10 +1,11 @@
 ---
 layout: default
-chapitre: fron end
-order: 6
+chapitre: starter
+order: 2
 ---
 <!-- -->
 
-# Front end
+# Starter
+
 
 <!-- new slide -->

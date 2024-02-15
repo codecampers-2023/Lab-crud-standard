@@ -1,6 +1,6 @@
 ---
 layout: default
-title: structure-des-dossciers.md
+chapitre: Backlog
 order: 2
 ---
 
@@ -13,9 +13,13 @@ order: 2
 <!-- note -->
 
 - docs 
+  - Backlog
+    - Compte-rendus-backlog.md
   - Introduction
     - images
     - introduction.md
+  - starter
+    - Compte-rendus-starter.md
   - Backend
     - Compte-rendus-backend.md
   - Unit test

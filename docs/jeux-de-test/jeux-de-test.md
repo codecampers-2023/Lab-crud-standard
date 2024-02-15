@@ -1,10 +1,10 @@
 ---
 layout: default
-chapitre: fron end
-order: 6
+chapitre: jeux de test
+order: 5
 ---
 <!-- -->
 
-# Front end
+# jeux de test
 
 <!-- new slide -->
