@@ -1,14 +1,22 @@
 ---
-layout : default
-order : 1
+layout: default
+order: 1
 ---
 
-# Lab heritage
+{% assign pages = site.pages | sort: "order" %}
+{% for page in pages %}
+{% if page.url != "/feed.xml" 
+and page.url != "/assets/css/style.css" 
+and  page.url != "/"  
+and page.url != "/presentation.html" %}
 
-## Rapport
+<!-- page.content | markdownify -->
+{{page.content }}
 
-[Rapport](https://labs-web.github.io/lab-crud-laravel-standard/rapport.html)
+{% endif %}
+{% endfor %}
 
-## Presentation
 
-[Presentation](https://labs-web.github.io/lab-crud-laravel-standard/presentation.html)
+
+ 
+ 

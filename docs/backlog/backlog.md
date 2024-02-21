@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Backlog
+chapitre: Structure des dossiers
 order: 2
 ---
 
@@ -13,17 +13,19 @@ order: 2
 <!-- note -->
 
 - docs 
-  - Backlog
-    - Compte-rendus-backlog.md
   - Introduction
     - images
     - introduction.md
   - starter
-    - Compte-rendus-starter.md
+    - images
+    - starter.md
   - Backend
     - Compte-rendus-backend.md
   - Unit test
     - compte-rendus-test.md
+  - Base de données 
+    - Compte-rendu-Base-de-données.md
+    - Base-de-données.md 
   - Front-end
     - images
     - Compte-rendus-frontend

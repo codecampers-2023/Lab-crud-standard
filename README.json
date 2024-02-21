@@ -20,14 +20,6 @@
             {
                 "Titre":"/docs",
                 "Description":"Documentation"
-            },
-            {
-                "Titre":"/docs/rapport",
-                "lien":"https://labs-web.github.io/lab-crud-laravel-standard/rapport.html"
-            },
-            {
-                "Titre":"/docs/presentation",
-                "lien":"https://labs-web.github.io/lab-crud-laravel-standard/presentation.html"
             }
         ]
     },   
