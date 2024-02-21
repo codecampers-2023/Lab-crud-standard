@@ -1,58 +1,40 @@
-# lab crud standard
-This repository presents a standard Laravel project for task management.
+#  
 
-## Référence 
+- Référence :   
 
-- https://github.com/labs-web/lab-crud-standard
+ 
 
-### Travail à faire
+## Backlog 
 
-- compléter le travail sur [`lab crud laravel basic`](https://github.com/Jalil-Betroji/lab-crud.git)
-- Opérations CRUD pour les tâches
-- Pagination
-- Recherche (AJAX)
-- Pattern Repository
-- Affichage des projets
-- Filtrer par projet
-- Données d'exemple (jeux de test)
+Le backlog est une liste ordonées des tâches 
 
-#### Process Workflow 
+- **chapitre** 
+- **exposé** 
+- **feature** 
+  - [1.backlog.md](./Backlog/feature/1.backlog.md) 
+  - [1.introduction.md](./Backlog/feature/1.introduction.md) 
+  - [1.prérequis.md](./Backlog/feature/1.prérequis.md) 
+  - [2.analyse.md](./Backlog/feature/2.analyse.md) 
+  - [2.compétences-cibles.md](./Backlog/feature/2.compétences-cibles.md) 
+  - [2.contexte-projet.md](./Backlog/feature/2.contexte-projet.md) 
+  - [3.maquettes.md](./Backlog/feature/3.maquettes.md) 
+  - [4.jeux-test.md](./Backlog/feature/4.jeux-test.md) 
+  - [5.back-end.md](./Backlog/feature/5.back-end.md) 
+  - [7.front-end.md](./Backlog/feature/7.front-end.md) 
+- **sous-tâche** 
+  - [init-lab.md](./Backlog/sous-tâche/init-lab.md) 
+- **thème** 
+## Livrables 
 
-- Start by cloning lab
+ 
 
-```bash
-git clone https://github.com/labs-web/lab-crud-laravel-standard.git
+- /Backlog 
+  - Backlog 
+- /docs 
+  - Documentation 
+## Références 
 
-```
+ 
 
-- Install packages
+- [Autoformation](#) 
 
-```bash
-composer install
-```
-
-- Next, create the .env file using the command:
-
-```bash
-cp .env.example .env
-```
-- Add the database name to the .env file.
-
-- Migrate tables to the database:
-
-```bash
-php artisan migrate
-```
-
-- Populate the database with project information by creating a seeder and executing:
-
-```bash
-php artisan db:seed
-```
-
-
-- To view your project's progress locally, run this command:
-
-```bash 
-php artisan serve
-```
