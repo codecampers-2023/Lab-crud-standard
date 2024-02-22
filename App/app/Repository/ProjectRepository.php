@@ -3,6 +3,9 @@
 namespace App\Repository;
 
 use App\Models\Project;
+use PHPUnit\Framework\Constraint\Count;
+
+use function PHPUnit\Framework\returnValue;
 
 class ProjectRepository
 {
@@ -11,5 +14,14 @@ class ProjectRepository
     {
         return Project::create($data);
     }
+
+
+    public function count() {
+        
+        
+
+        
+    }
+
 }
     
