@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\projectController;
 use Illuminate\Support\Facades\Route;
 use App\Models\Project;
 
@@ -18,17 +19,21 @@ use App\Models\Project;
 
 
 
-Route::get('/add-project', function () {
+// Route::get('/add-project', function () {
 
-    $projectrepository = new \App\Repository\ProjectRepository();
-    $projectrepository->create([
-        'name' => 'Project 1',
-        'description' => 'Description 1',
-        'date-debut' => '2022-02-22 12:02:00',
-        'date-fin' => '2022-02-22 12:02:00'
-    ]);
+//     $projectrepository = new \App\Repository\ProjectRepository();
+//     $projectrepository->create([
+//         'name' => 'Project 1',
+//         'description' => 'Description 1',
+//         'date-debut' => '2022-02-22 12:02:00',
+//         'date-fin' => '2022-02-22 12:02:00'
+//     ]);
 
-    $tottalprojects = $projectrepository->count();
-    return 'the totall project is ' . $tottalprojects;
+//     $tottalprojects = $projectrepository->count();
+//     return 'the totall project is ' . $tottalprojects;
 
-});
+// });
+
+
+Route::get('/add-project', [projectController::class, 'index'])->name('add-project');
+Route::post('add-project/create', [projectController::class, 'create'])->name('create');

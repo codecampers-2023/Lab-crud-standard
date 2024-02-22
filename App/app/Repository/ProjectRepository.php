@@ -15,7 +15,6 @@ class ProjectRepository
         return Project::create($data);
     }
 
-
     public function count() {
         
         $totalrows = Project::all();
