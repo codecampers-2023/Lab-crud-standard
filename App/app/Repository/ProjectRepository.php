@@ -18,8 +18,9 @@ class ProjectRepository
 
     public function count() {
         
-        
-
+        $totalrows = Project::all();
+        $totalprojecs = count($totalrows);
+        return $totalprojecs;
         
     }
 

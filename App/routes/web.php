@@ -1,6 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Models\Project;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -13,15 +15,20 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+
+
+
 Route::get('/add-project', function () {
 
-    $project = new \App\Repository\ProjectRepository();
-    $project->create([
+    $projectrepository = new \App\Repository\ProjectRepository();
+    $projectrepository->create([
         'name' => 'Project 1',
         'description' => 'Description 1',
         'date-debut' => '2022-02-22 12:02:00',
         'date-fin' => '2022-02-22 12:02:00'
     ]);
 
-    return 'Project created';
+    $tottalprojects = $projectrepository->count();
+    return 'the totall project is ' . $tottalprojects;
+
 });
