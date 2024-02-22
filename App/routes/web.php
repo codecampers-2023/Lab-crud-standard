@@ -13,6 +13,15 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
+Route::get('/add-project', function () {
+
+    $project = new \App\Repository\ProjectRepository();
+    $project->create([
+        'name' => 'Project 1',
+        'description' => 'Description 1',
+        'date-debut' => '2022-02-22 12:02:00',
+        'date-fin' => '2022-02-22 12:02:00'
+    ]);
+
+    return 'Project created';
 });
