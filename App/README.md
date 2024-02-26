@@ -1,14 +1,17 @@
 # Initialisation d'un projet Laravel
 
+## Table des matières
+- [Travail à faire](#travail-à-faire)
+- [Critères de validation](#critères-de-validation)
+- [Les étapes de l'installation d'AdminLTE](#les-étapes-de-linstallation-dadminlte)
+- [Présentation](#présentation)
+- [Ressources utiles](#ressources-utiles)
 
 ### Travail à faire
 
 * Création d'un projet Laravel
 * Installation d'AdminLTE
-* Installation d'InfyOm Generator
 * Rédaction du fichier README
-* Mise en place des fonctionnalités de base d'AdminLTE (ex: menu latéral, barre de navigation, etc.)
-* Adaptation du design aux besoins du projet
 * Configuration de Laravel pour utiliser Vite
 
 ### Critères de validation
@@ -61,34 +64,14 @@ Dans `public/js/app.js`, importer le JavaScript d'AdminLTE :
 import 'admin-lte/dist/js/adminlte';
 ```
 
-**6. Installation d'InfyOm Generator**
-
-```bash
-php artisan vendor:publish --provider="InfyOm\Generator\InfyOmGeneratorServiceProvider"
-```
-
-**7. Installation de Laravel UI AdminLTE**
-
-```bash
-composer require infyomlabs/laravel-ui-adminlte
-```
-
-**8. Générer l'authentification avec AdminLTE UI**
-
-Utilisez la commande Artisan pour générer le système d'authentification avec l'interface utilisateur AdminLTE.
-
-```bash
-php artisan ui adminlte --auth
-```
-
-**9. Installer les dépendances et construire les assets**
+**6. Installer les dépendances et construire les assets**
 
 ```bash
 npm install
 npm run dev
 ```
 
-**10. Configuration de Laravel pour utiliser Vite**
+**7. Configuration de Laravel pour utiliser Vite**
 
 Ouvrez votre fichier de mise en page Laravel (par exemple, `resources/views/layouts/app.blade.php`) et incluez les assets Vite :
 
@@ -98,7 +81,7 @@ Ouvrez votre fichier de mise en page Laravel (par exemple, `resources/views/layo
 
 Assurez-vous d'ajuster le chemin en fonction de la structure de votre projet.
 
-**11. Lancer le serveur de développement Laravel**
+**8. Lancer le serveur de développement Laravel**
 
 Démarrez le serveur de développement Laravel pour prévisualiser votre application.
 
@@ -106,15 +89,15 @@ Démarrez le serveur de développement Laravel pour prévisualiser votre applica
 php artisan serve
 ```
 
-**12. Configuration de la base de données**
+**9. Configuration de la base de données**
 
 Si nécessaire, configurez la connexion à la base de données dans le fichier `.env`.
 
-**13. Utilisation d'AdminLTE**
+**10. Utilisation d'AdminLTE**
 
 Utilisez les templates et les composants d'AdminLTE dans vos vues Blade.
 
-**14. Adaptation du design**
+**11. Adaptation du design**
 
 Modifier les variables CSS d'AdminLTE ou créer votre propre thème pour adapter le design aux besoins du projet.
 
