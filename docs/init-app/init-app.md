@@ -1,3 +1,9 @@
+---
+layout: default
+chapitre: init-app
+order: 5
+---
+
 # Initialisation de l'application
 
 ## Table des matières
