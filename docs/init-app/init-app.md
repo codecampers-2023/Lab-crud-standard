@@ -1,3 +1,9 @@
+---
+layout: default
+chapitre: init-app
+order: 5
+---
+
 # Initialisation de l'application
 
 ## Table des matières
@@ -7,14 +13,14 @@
 - [Présentation](#présentation)
 - [Ressources utiles](#ressources-utiles)
 
-### Travail à faire
+## Travail à faire
 
 * Création d'un projet Laravel
 * Installation d'AdminLTE
 * Rédaction du fichier README
 * Configuration de Laravel pour utiliser Vite
 
-### Critères de validation
+## Critères de validation
 
 * Le projet Laravel est fonctionnel.
 * AdminLTE est correctement installé et configuré.
@@ -22,7 +28,7 @@
 * Les fonctionnalités de base d'AdminLTE sont implémentées.
 * Le design est adapté aux besoins du projet.
 
-### Les étapes de l'installation d'AdminLTE
+## Les étapes de l'installation d'AdminLTE
 
 **1. Installation des prérequis**
 
@@ -101,8 +107,6 @@ Utilisez les templates et les composants d'AdminLTE dans vos vues Blade.
 
 Modifier les variables CSS d'AdminLTE ou créer votre propre thème pour adapter le design aux besoins du projet.
 
-**Présentation**
-* Présentation : [Réalisation-package-starter]( https://docs.google.com/presentation/d/1A3YdTje6L41ELqJpGhJiJ-NSPIiZntfTNhm7ZwhkK0k/edit?usp=sharing)
 
 **Ressources utiles**
 
