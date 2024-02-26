@@ -16,5 +16,4 @@ Les prérequis comprend les étapes suivantes :
 - Rédaction du rapport
 - Préparation de la présentation
 
-
 <!-- new slide -->
