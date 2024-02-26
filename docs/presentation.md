@@ -15,5 +15,4 @@ and page.url != "/presentation.html" %}
 
 {% endif %}
 {% endfor %}
-
  
