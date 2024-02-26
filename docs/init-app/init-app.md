@@ -13,14 +13,14 @@ order: 5
 - [Présentation](#présentation)
 - [Ressources utiles](#ressources-utiles)
 
-### Travail à faire
+## Travail à faire
 
 * Création d'un projet Laravel
 * Installation d'AdminLTE
 * Rédaction du fichier README
 * Configuration de Laravel pour utiliser Vite
 
-### Critères de validation
+## Critères de validation
 
 * Le projet Laravel est fonctionnel.
 * AdminLTE est correctement installé et configuré.
@@ -28,7 +28,7 @@ order: 5
 * Les fonctionnalités de base d'AdminLTE sont implémentées.
 * Le design est adapté aux besoins du projet.
 
-### Les étapes de l'installation d'AdminLTE
+## Les étapes de l'installation d'AdminLTE
 
 **1. Installation des prérequis**
 
