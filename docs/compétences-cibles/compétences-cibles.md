@@ -13,7 +13,6 @@ order: 4
 *figure: Compétences cibles*
 
 <!-- note -->
-
 - **C1 Maquettage** : Maquetter une application mobile.
 - **C2 Base de données** : Manipuler une base de données - perfectionnement.
 - **C3 Back end** : Développer la partie back-end d’une application web ou web mobile - perfectionnement.
