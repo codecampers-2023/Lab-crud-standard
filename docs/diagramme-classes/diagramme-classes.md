@@ -9,5 +9,7 @@ order: 6
 
 ![diagramme-classes](./diagramme-classes/images/diagramme-classes.png){:width="500px" } *Figure: Diagramme de classe*
 
-<!-- note -->
 
+
+
+<!-- new slide -->
