@@ -16,6 +16,13 @@ order: 0
 - [Programmation générique](#programmation-générique)
 - [Initialisation de l'application](#initialisation-de-lapplication)
 - [Maquettes](#maquettes)
+- [Projet backend](#projet-backend)
+- [Tache backend](#tache-backend)
+- [Projet test](#projet-test)
+- [tache test](#tache-test)
+- [Projet frontend](#projet-frontend)
+- [Tache frontend](#tache-frontend)
 - [Conclusion](#conclusion)
+- 
   
 <!-- new slide -->
