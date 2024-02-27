@@ -38,7 +38,7 @@ Le backlog est une liste ordonées des tâches
   - [8.taches_frontend.md](./Backlog/feature/8.taches_frontend.md) 
 - **thème** 
   - [0.lab-crud-laravel-standard.15.md](./Backlog/thème/0.lab-crud-laravel-standard.15.md) 
-## Livrables  
+## Livrables 
 
  
 
