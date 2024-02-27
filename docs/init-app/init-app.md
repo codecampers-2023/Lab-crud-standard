@@ -6,6 +6,7 @@ order: 9
 
 # Initialisation de l'application
 
+<!-- note -->
 
 ## Les étapes de l'installation d'AdminLTE
 
@@ -96,5 +97,6 @@ Modifier les variables CSS d'AdminLTE ou créer votre propre thème pour adapter
 * Forum de la communauté Laravel : [https://laracasts.com/discuss](https://laracasts.com/discuss)
 
 
+<!-- new slide -->
 
 
