@@ -6,27 +6,6 @@ order: 5
 
 # Initialisation de l'application
 
-## Table des matières
-- [Travail à faire](#travail-à-faire)
-- [Critères de validation](#critères-de-validation)
-- [Les étapes de l'installation d'AdminLTE](#les-étapes-de-linstallation-dadminlte)
-- [Présentation](#présentation)
-- [Ressources utiles](#ressources-utiles)
-
-## Travail à faire
-
-* Création d'un projet Laravel
-* Installation d'AdminLTE
-* Rédaction du fichier README
-* Configuration de Laravel pour utiliser Vite
-
-## Critères de validation
-
-* Le projet Laravel est fonctionnel.
-* AdminLTE est correctement installé et configuré.
-* Le fichier README est clair et complet.
-* Les fonctionnalités de base d'AdminLTE sont implémentées.
-* Le design est adapté aux besoins du projet.
 
 ## Les étapes de l'installation d'AdminLTE
 
@@ -94,6 +73,8 @@ Démarrez le serveur de développement Laravel pour prévisualiser votre applica
 ```bash
 php artisan serve
 ```
+
+
 
 **9. Configuration de la base de données**
 
