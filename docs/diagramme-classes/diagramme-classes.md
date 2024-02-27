@@ -1,8 +1,13 @@
 ---
 layout: default
 chapitre: diagramme de classe
-order: 7
+order: 6
 ---
 
 
 # Diagramme de classe 
+
+![diagramme-classes](./diagramme-classes/images/diagramme-classes.png){:width="500px" } *Figure: Diagramme de classe*
+
+<!-- note -->
+
