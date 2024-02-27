@@ -1,7 +1,7 @@
 ---
 layout: default
 chapitre: init-app
-order: 5
+order: 9
 ---
 
 # Initialisation de l'application
