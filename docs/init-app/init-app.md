@@ -74,6 +74,8 @@ Démarrez le serveur de développement Laravel pour prévisualiser votre applica
 php artisan serve
 ```
 
+
+
 **9. Configuration de la base de données**
 
 Si nécessaire, configurez la connexion à la base de données dans le fichier `.env`.
