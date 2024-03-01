@@ -66,4 +66,5 @@ Command pour inserer projets info sur base donnée en utilisant seeders
 ```bash
 php artisan db:seed --class=Database\Seeders\projets\ProjetsSeeder
 ```
+
 <!-- new slide -->
