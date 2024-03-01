@@ -1,7 +1,7 @@
 <?php 
 namespace App\Repositories\taches ;
 use App\Models\taches\Tache;
-use App\Repository\Repositories\AppBaseRepository;
+use App\Repositories\AppBaseRepository;
 
 
 class Tachepository extends AppBaseRepository
