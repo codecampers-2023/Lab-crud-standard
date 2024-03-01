@@ -89,16 +89,6 @@ Utilisez les templates et les composants d'AdminLTE dans vos vues Blade.
 
 Modifier les variables CSS d'AdminLTE ou créer votre propre thème pour adapter le design aux besoins du projet.
 
-**12.RouteServiceProvider**
-
-ajouter le code suivant pour déclare le route NameSpace sur le fichier **App/app/Providers/RouteServiceProvider.php**
-````php
-                Route::middleware('web')
-                ->group(base_path('routes/projets/projet.php'));
-
-                Route::middleware('web')
-                ->group(base_path('routes/taches/tache.php'));
-```
 
 **Ressources utiles**
 
