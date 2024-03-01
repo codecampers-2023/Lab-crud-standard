@@ -7,6 +7,7 @@ use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\DB;
 use App\Models\taches\tache;
 
+
 class TachesSeeder extends Seeder
 {
     /**
