@@ -2,8 +2,9 @@
 
 namespace App\Models\taches;
 
-use Illuminate\Database\Eloquent\Factories\HasFactory;
+use App\Models\projets\projet;
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\Factories\HasFactory;
 
 class Tache extends Model
 {
@@ -15,6 +16,6 @@ class Tache extends Model
     ];
     public function projet()
     {
-        return $this->belongsTo(Projet::class);
+        return $this->belongsTo(projet::class);
     }
 }
