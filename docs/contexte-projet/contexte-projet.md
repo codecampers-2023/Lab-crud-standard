@@ -5,8 +5,14 @@ order: 3
 ---
 
 # Contexte de projet
+{:class="sectionHeader"}
+<!-- new slide -->
 
-![contexte-de-projet](./contexte-projet/images/contexte.jpg){:width="500px" } *Figure: Contexte de projet*
+# Namespac
+![namespac](.\contexte-projet\images\namecpacing.png){:width} *Figure: Namespac*
+<!-- new slide -->
+# Repository design pattern
+  ![contexte-de-projet](.\contexte-projet\images\repository.png){:width} *Figure: Contexte de projet*
 
 <!-- note -->
 
