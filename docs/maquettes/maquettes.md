@@ -11,24 +11,25 @@ order: 8
 
 ## Page d'accueil
 
-![index](./maquettes/images/tache.png){:width}
+![index](./maquettes/images/tache.png){:class=width}
 _figure: index_
 
 <!-- new slide -->
 
 ## Plus d'information
 
-![Plus d'information](./maquettes/images/ditels.png){:width}_figure: Plus d'information_
+![Plus d'information](./maquettes/images/ditels.png){:class=width}_figure: Plus d'information_
 
 <!-- new slide -->
 
 ## Ajouter
 
-![Ajoute](./maquettes/images/add.png){:width}_figure: ajoute_
+![Ajoute](./maquettes/images/add.png){:class=width}_figure: ajoute_
+
 
 <!-- new slide -->
 
 ## Tâches
-![Tâches](./maquettes/images/tache.png){:width}_figure: modifier_
+![Tâches](./maquettes/images/tache.png){:class=width}_figure: modifier_
 
 <!-- new slide -->

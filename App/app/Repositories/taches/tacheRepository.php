@@ -6,8 +6,7 @@ use App\Repositories\AppBaseRepository;
 
 class TacheRepository extends AppBaseRepository
 {
-    protected $model;
-
+       
     public function __construct(Tache $task){
         $this->model = $task;
     }
@@ -25,7 +24,7 @@ class TacheRepository extends AppBaseRepository
     }
  
 
-   public function  getTaskByProjetId($projetId){
+   public function  getTaskbyprojetId($projetId){
     return $this->model->where('projetId', $projetId)->paginate(4);
      
    }
@@ -39,7 +38,6 @@ class TacheRepository extends AppBaseRepository
       
         return $get_data->paginate(4);
 
-    
     }
  
 }
