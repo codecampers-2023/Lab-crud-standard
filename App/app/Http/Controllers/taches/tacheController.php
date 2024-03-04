@@ -30,7 +30,7 @@ class TacheController extends Controller
               if (!$Tasks -> count()) {
                   return 'false' ; 
               }
-              return view('tasks.search', compact('Tasks'))->render();
+              return view('taches.search', compact('Tasks'))->render();
           } 
           $projects = $this->ProjetRepository->index();
       
@@ -40,13 +40,13 @@ class TacheController extends Controller
           if($projetId) {
               $project = $this->ProjetRepository->find($projetId);
               $Tasks = $this->TacheRepository->getTaskbyprojetId($projetId);
-              return view("Tasks.index",Compact('Tasks','projects', 'project'));
+              return view("Taches.index",Compact('Tasks','projects', 'project'));
               // dd($tasks);
           }
           $Tasks = $this->TacheRepository->index();
           $task = $Tasks->first();
           $project = $this->ProjetRepository->find($task->projetId);
-          return view("Tasks.index",Compact('Tasks','projects', 'projects', 'project'));
+          return view("Taches.index",Compact('Tasks', 'projects', 'project'));
   
       }
   
@@ -56,7 +56,7 @@ class TacheController extends Controller
       public function create()
       {
           $projects = $this->ProjetRepository->index(); 
-          return view('tasks.create',Compact('projects'));
+          return view('taches.create',Compact('projects'));
       }
   
       /**
@@ -80,7 +80,7 @@ class TacheController extends Controller
           $task = $this->TacheRepository->find($task);
           $project = $this->ProjetRepository->find($task->projetId);
   
-          return view('tasks.show', compact('task', 'project'));
+          return view('taches.show', compact('task', 'project'));
       }
   
       /**
@@ -91,7 +91,7 @@ class TacheController extends Controller
   
           $projects = $this->ProjetRepository->index(); 
           $task = $this->TacheRepository->find($id);
-        return view('Tasks.edit',compact('task','projects'));
+        return view('Taches.edit',compact('task','projects'));
   
       }
   

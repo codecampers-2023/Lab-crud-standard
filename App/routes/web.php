@@ -1,6 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\taches\TacheController;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -13,6 +15,13 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-// Route::get('/', function () {
-//     return view('welcome');
-// });
+Route::get('/',[ProjectsController::class,'index'])->name('home');
+// Route::post('/',[ProjectsController::class,'create'])->name('create');
+
+// Route::put('update',[ProjectsController::class,'edit'])->name('edit');
+// Route::delete('destroy',[ProjectsController::class,'destroy'])->name('destroy');
+
+Route::get('projects/tasks/{projetId}',[TacheController::class,'index'])->name('projects.tasks');
+
+Route::resource('tasks', TacheController::class);
+Route::resource('projects', ProjectsController::class);
