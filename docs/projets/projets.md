@@ -8,6 +8,7 @@ order: 11
 
 ![Projet backend](./images/backend_text_1.jpg){:width="700px"}
 
+
 <!-- note -->
 
 Dans la section dédiée aux projets, nous élaborerons une plateforme pour la gestion efficace des projets, démontrant ainsi notre expertise en Laravel. Cette démarche nous permettra de mettre en pratique nos compétences en développement back-end, tout en garantissant une approche professionnelle et efficace dans la gestion de nos projets.
