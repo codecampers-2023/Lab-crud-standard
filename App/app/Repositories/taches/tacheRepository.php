@@ -4,7 +4,7 @@ use App\Models\taches\Tache;
 use App\Repositories\AppBaseRepository;
 
 
-class Tachepository extends AppBaseRepository
+class TacheRepository extends AppBaseRepository
 {
     protected $model;
 
