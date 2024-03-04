@@ -19,9 +19,13 @@ abstract class AppBaseRepository {
     public function store(array $validatedData){
         return $this->model->create($validatedData);
     }
-    public function destroy($Obj){
-        $toDelete = $this->model->find($Obj->id);
-        return $toDelete->delete();
+    public function destroy($id){
+        $toDelete = $this->model->find($id);
+        if ($toDelete) {
+            return $toDelete->delete();
+        }
+        return false; // Or throw an exception if you prefer
     }
+    
     
 }
