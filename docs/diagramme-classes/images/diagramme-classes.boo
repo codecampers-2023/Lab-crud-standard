@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?PowerDesigner AppLocale="UTF16" ID="{506F28E8-4492-4C85-99D6-EA9F14E4A369}" Label="" LastModificationDate="1709557657" Name="ModeleOrienteObjet_1" Objects="31" Symbols="4" Target="Java" TargetLink="Reference" Type="{18112060-1A4B-11D1-83D9-444553540000}" signature="CLD_OBJECT_MODEL" version="15.1.0.2850"?>
+<?PowerDesigner AppLocale="UTF16" ID="{506F28E8-4492-4C85-99D6-EA9F14E4A369}" Label="" LastModificationDate="1709037654" Name="ModeleOrienteObjet_1" Objects="31" Symbols="4" Target="Java" TargetLink="Reference" Type="{18112060-1A4B-11D1-83D9-444553540000}" signature="CLD_OBJECT_MODEL" version="15.1.0.2850"?>
 <!-- Veuillez ne pas modifier ce fichier -->
 
 <Model xmlns:a="attribute" xmlns:c="collection" xmlns:o="object">
@@ -12,7 +12,7 @@
 <a:Code>ModeleOrienteObjet_1</a:Code>
 <a:CreationDate>1709032582</a:CreationDate>
 <a:Creator>Solicode</a:Creator>
-<a:ModificationDate>1709557657</a:ModificationDate>
+<a:ModificationDate>1709035178</a:ModificationDate>
 <a:Modifier>Solicode</a:Modifier>
 <a:PackageOptionsText>[FolderOptions]
 
@@ -982,7 +982,7 @@ NameToCode=No</a:ModelOptionsText>
 <a:Code>DiagrammeClasses_1</a:Code>
 <a:CreationDate>1709032582</a:CreationDate>
 <a:Creator>Solicode</a:Creator>
-<a:ModificationDate>1709557657</a:ModificationDate>
+<a:ModificationDate>1709035178</a:ModificationDate>
 <a:Modifier>Solicode</a:Modifier>
 <a:DisplayPreferences>[DisplayPreferences]
 
@@ -1401,7 +1401,7 @@ Shadow=0</a:DisplayPreferences>
 <a:DestinationTextOffset>(-537, -587)</a:DestinationTextOffset>
 <a:SourceText>1..1</a:SourceText>
 <a:DestinationText>1..*</a:DestinationText>
-<a:Rect>((1664,872194), (12056,874542))</a:Rect>
+<a:Rect>((1664,872295), (12056,874442))</a:Rect>
 <a:ListOfPoints>((1664,873368),(12056,873368))</a:ListOfPoints>
 <a:CornerStyle>2</a:CornerStyle>
 <a:TextStyle>4130</a:TextStyle>
@@ -1411,6 +1411,29 @@ Shadow=0</a:DisplayPreferences>
 <a:FontName>Arial,8,N</a:FontName>
 </o:PolylineSymbol>
 <o:ClassSymbol Id="o7">
+<a:CreationDate>1709032790</a:CreationDate>
+<a:ModificationDate>1709035192</a:ModificationDate>
+<a:IconMode>-1</a:IconMode>
+<a:Rect>((-22490,869731), (-11858,878421))</a:Rect>
+<a:LineColor>0</a:LineColor>
+<a:FillColor>16777215</a:FillColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>STRN 0 Arial,8,N
+DISPNAME 0 Arial,8,N
+CNTR 0 Arial,8,N
+Attributes 0 Arial,8,N
+ClassPrimaryAttribute 0 Arial,8,U
+Operations 0 Arial,8,N
+InnerClassifiers 0 Arial,8,N
+LABL 0 Arial,8,N</a:FontList>
+<a:BrushStyle>6</a:BrushStyle>
+<a:GradientFillMode>65</a:GradientFillMode>
+<a:GradientEndColor>16777215</a:GradientEndColor>
+<c:Object>
+<o:Class Ref="o8"/>
+</c:Object>
+</o:ClassSymbol>
+<o:ClassSymbol Id="o9">
 <a:CreationDate>1709032791</a:CreationDate>
 <a:ModificationDate>1709035329</a:ModificationDate>
 <a:IconMode>-1</a:IconMode>
@@ -1432,10 +1455,10 @@ LABL 0 Arial,8,N</a:FontList>
 <a:GradientEndColor>16777215</a:GradientEndColor>
 <a:ManuallyResized>1</a:ManuallyResized>
 <c:Object>
-<o:Class Ref="o8"/>
+<o:Class Ref="o10"/>
 </c:Object>
 </o:ClassSymbol>
-<o:ClassSymbol Id="o9">
+<o:ClassSymbol Id="o11">
 <a:CreationDate>1709034668</a:CreationDate>
 <a:ModificationDate>1709035331</a:ModificationDate>
 <a:IconMode>-1</a:IconMode>
@@ -1457,7 +1480,7 @@ LABL 0 Arial,8,N</a:FontList>
 <a:GradientEndColor>16777215</a:GradientEndColor>
 <a:ManuallyResized>1</a:ManuallyResized>
 <c:Object>
-<o:Class Ref="o10"/>
+<o:Class Ref="o12"/>
 </c:Object>
 </o:ClassSymbol>
 </c:Symbols>
@@ -1468,6 +1491,119 @@ LABL 0 Arial,8,N</a:FontList>
 </c:DefaultDiagram>
 <c:Classes>
 <o:Class Id="o8">
+<a:ObjectID>5D2DB46C-5F67-4A57-AADA-5128767A3D85</a:ObjectID>
+<a:Name>Utilisateur</a:Name>
+<a:Code>Utilisateur</a:Code>
+<a:CreationDate>1709032790</a:CreationDate>
+<a:Creator>Solicode</a:Creator>
+<a:ModificationDate>1709034268</a:ModificationDate>
+<a:Modifier>Solicode</a:Modifier>
+<a:UseParentNamespace>0</a:UseParentNamespace>
+<c:Attributes>
+<o:Attribute Id="o13">
+<a:ObjectID>E473B713-D628-4D3A-8C49-FFDA1764EF5C</a:ObjectID>
+<a:Name>id_utilisateur</a:Name>
+<a:Code>idUtilisateur</a:Code>
+<a:CreationDate>1709033945</a:CreationDate>
+<a:Creator>Solicode</a:Creator>
+<a:ModificationDate>1709034555</a:ModificationDate>
+<a:Modifier>Solicode</a:Modifier>
+<a:DataType>int</a:DataType>
+<a:Attribute.Visibility>-</a:Attribute.Visibility>
+</o:Attribute>
+<o:Attribute Id="o14">
+<a:ObjectID>C665C1FC-932C-4958-A227-8E15B249749A</a:ObjectID>
+<a:Name>nom</a:Name>
+<a:Code>nom</a:Code>
+<a:CreationDate>1709033945</a:CreationDate>
+<a:Creator>Solicode</a:Creator>
+<a:ModificationDate>1709034023</a:ModificationDate>
+<a:Modifier>Solicode</a:Modifier>
+<a:DataType>String</a:DataType>
+<a:Attribute.Visibility>-</a:Attribute.Visibility>
+</o:Attribute>
+<o:Attribute Id="o15">
+<a:ObjectID>2F70D1FD-891F-4E50-8DDE-C79E9E5DF722</a:ObjectID>
+<a:Name>prenom</a:Name>
+<a:Code>prenom</a:Code>
+<a:CreationDate>1709033945</a:CreationDate>
+<a:Creator>Solicode</a:Creator>
+<a:ModificationDate>1709034052</a:ModificationDate>
+<a:Modifier>Solicode</a:Modifier>
+<a:DataType>String</a:DataType>
+<a:Attribute.Visibility>-</a:Attribute.Visibility>
+</o:Attribute>
+<o:Attribute Id="o16">
+<a:ObjectID>363B0B1B-F155-4526-A2F1-E660AB531BA6</a:ObjectID>
+<a:Name>email</a:Name>
+<a:Code>email</a:Code>
+<a:CreationDate>1709033945</a:CreationDate>
+<a:Creator>Solicode</a:Creator>
+<a:ModificationDate>1709034052</a:ModificationDate>
+<a:Modifier>Solicode</a:Modifier>
+<a:DataType>String</a:DataType>
+<a:Attribute.Visibility>-</a:Attribute.Visibility>
+</o:Attribute>
+<o:Attribute Id="o17">
+<a:ObjectID>5E48CDAE-4E64-43B2-9FA2-E64340F7D5A3</a:ObjectID>
+<a:Name>mot-de-passe</a:Name>
+<a:Code>motDePasse</a:Code>
+<a:CreationDate>1709034025</a:CreationDate>
+<a:Creator>Solicode</a:Creator>
+<a:ModificationDate>1709034068</a:ModificationDate>
+<a:Modifier>Solicode</a:Modifier>
+<a:DataType>String</a:DataType>
+<a:Attribute.Visibility>-</a:Attribute.Visibility>
+</o:Attribute>
+<o:Attribute Id="o18">
+<a:ObjectID>69186521-4908-4ECE-AF0D-622AC3F7AF5C</a:ObjectID>
+<a:Name>role</a:Name>
+<a:Code>role</a:Code>
+<a:CreationDate>1709034217</a:CreationDate>
+<a:Creator>Solicode</a:Creator>
+<a:ModificationDate>1709034268</a:ModificationDate>
+<a:Modifier>Solicode</a:Modifier>
+<a:DataType>Boolean</a:DataType>
+<a:Attribute.Visibility>-</a:Attribute.Visibility>
+</o:Attribute>
+</c:Attributes>
+<c:Identifiers>
+<o:Identifier Id="o19">
+<a:ObjectID>E03F9E51-58BA-43AE-A922-BC43914F32E4</a:ObjectID>
+<a:Name>id</a:Name>
+<a:Code>id</a:Code>
+<a:CreationDate>1709033799</a:CreationDate>
+<a:Creator>Solicode</a:Creator>
+<a:ModificationDate>1709033853</a:ModificationDate>
+<a:Modifier>Solicode</a:Modifier>
+</o:Identifier>
+<o:Identifier Id="o20">
+<a:ObjectID>AC9970EA-FC27-42D0-BCE2-AB465193283B</a:ObjectID>
+<a:Name>ide</a:Name>
+<a:Code>ide</a:Code>
+<a:CreationDate>1709033926</a:CreationDate>
+<a:Creator>Solicode</a:Creator>
+<a:ModificationDate>1709034082</a:ModificationDate>
+<a:Modifier>Solicode</a:Modifier>
+</o:Identifier>
+<o:Identifier Id="o21">
+<a:ObjectID>17F80D01-FB80-4D81-BA98-577A17BFCCE2</a:ObjectID>
+<a:Name>identifiant</a:Name>
+<a:Code>identifiant</a:Code>
+<a:CreationDate>1709034071</a:CreationDate>
+<a:Creator>Solicode</a:Creator>
+<a:ModificationDate>1709034082</a:ModificationDate>
+<a:Modifier>Solicode</a:Modifier>
+<c:Identifier.Attributes>
+<o:Attribute Ref="o13"/>
+</c:Identifier.Attributes>
+</o:Identifier>
+</c:Identifiers>
+<c:PrimaryIdentifier>
+<o:Identifier Ref="o21"/>
+</c:PrimaryIdentifier>
+</o:Class>
+<o:Class Id="o10">
 <a:ObjectID>435E6C88-C2D4-4C18-9494-CCDCE4FD4AB0</a:ObjectID>
 <a:Name>Projet</a:Name>
 <a:Code>Projet</a:Code>
@@ -1477,7 +1613,7 @@ LABL 0 Arial,8,N</a:FontList>
 <a:Modifier>Solicode</a:Modifier>
 <a:UseParentNamespace>0</a:UseParentNamespace>
 <c:Attributes>
-<o:Attribute Id="o11">
+<o:Attribute Id="o22">
 <a:ObjectID>1D4AC706-F67E-4F46-91D0-3CF006CAEF4F</a:ObjectID>
 <a:Name>id_projet</a:Name>
 <a:Code>idProjet</a:Code>
@@ -1488,7 +1624,7 @@ LABL 0 Arial,8,N</a:FontList>
 <a:DataType>int</a:DataType>
 <a:Attribute.Visibility>-</a:Attribute.Visibility>
 </o:Attribute>
-<o:Attribute Id="o12">
+<o:Attribute Id="o23">
 <a:ObjectID>DED87205-32FF-4AC9-ABB7-8D811AF3A7AE</a:ObjectID>
 <a:Name>titre</a:Name>
 <a:Code>titre</a:Code>
@@ -1499,18 +1635,18 @@ LABL 0 Arial,8,N</a:FontList>
 <a:DataType>String</a:DataType>
 <a:Attribute.Visibility>-</a:Attribute.Visibility>
 </o:Attribute>
-<o:Attribute Id="o13">
+<o:Attribute Id="o24">
 <a:ObjectID>7CD15C65-D3D2-402E-A802-A640FC682669</a:ObjectID>
 <a:Name>description</a:Name>
 <a:Code>description</a:Code>
 <a:CreationDate>1709034378</a:CreationDate>
 <a:Creator>Solicode</a:Creator>
-<a:ModificationDate>1709557611</a:ModificationDate>
+<a:ModificationDate>1709034405</a:ModificationDate>
 <a:Modifier>Solicode</a:Modifier>
-<a:DataType>String</a:DataType>
+<a:DataType>int</a:DataType>
 <a:Attribute.Visibility>-</a:Attribute.Visibility>
 </o:Attribute>
-<o:Attribute Id="o14">
+<o:Attribute Id="o25">
 <a:ObjectID>0D3C62ED-83AC-4C01-B6E3-0425522140BC</a:ObjectID>
 <a:Name>date_debut</a:Name>
 <a:Code>dateDebut</a:Code>
@@ -1521,7 +1657,7 @@ LABL 0 Arial,8,N</a:FontList>
 <a:DataType>Date</a:DataType>
 <a:Attribute.Visibility>-</a:Attribute.Visibility>
 </o:Attribute>
-<o:Attribute Id="o15">
+<o:Attribute Id="o26">
 <a:ObjectID>AB058418-EF2D-44FD-A237-EC8E931B9A2A</a:ObjectID>
 <a:Name>date_fin</a:Name>
 <a:Code>dateFin</a:Code>
@@ -1534,7 +1670,7 @@ LABL 0 Arial,8,N</a:FontList>
 </o:Attribute>
 </c:Attributes>
 <c:Identifiers>
-<o:Identifier Id="o16">
+<o:Identifier Id="o27">
 <a:ObjectID>8B874032-8741-4CEB-841D-40B1BA4BC644</a:ObjectID>
 <a:Name>id</a:Name>
 <a:Code>id</a:Code>
@@ -1543,7 +1679,7 @@ LABL 0 Arial,8,N</a:FontList>
 <a:ModificationDate>1709034525</a:ModificationDate>
 <a:Modifier>Solicode</a:Modifier>
 </o:Identifier>
-<o:Identifier Id="o17">
+<o:Identifier Id="o28">
 <a:ObjectID>068378B6-2CDA-45E4-ABB5-3031B9B34818</a:ObjectID>
 <a:Name>id_projet</a:Name>
 <a:Code>id_projet</a:Code>
@@ -1552,15 +1688,15 @@ LABL 0 Arial,8,N</a:FontList>
 <a:ModificationDate>1709034525</a:ModificationDate>
 <a:Modifier>Solicode</a:Modifier>
 <c:Identifier.Attributes>
-<o:Attribute Ref="o11"/>
+<o:Attribute Ref="o22"/>
 </c:Identifier.Attributes>
 </o:Identifier>
 </c:Identifiers>
 <c:PrimaryIdentifier>
-<o:Identifier Ref="o17"/>
+<o:Identifier Ref="o28"/>
 </c:PrimaryIdentifier>
 </o:Class>
-<o:Class Id="o10">
+<o:Class Id="o12">
 <a:ObjectID>CFDAC276-CFD3-446B-A54F-AB679357B7D1</a:ObjectID>
 <a:Name>Tache</a:Name>
 <a:Code>Tache</a:Code>
@@ -1570,7 +1706,7 @@ LABL 0 Arial,8,N</a:FontList>
 <a:Modifier>Solicode</a:Modifier>
 <a:UseParentNamespace>0</a:UseParentNamespace>
 <c:Attributes>
-<o:Attribute Id="o18">
+<o:Attribute Id="o29">
 <a:ObjectID>9D177449-C887-4CD2-B104-25B29863A1D4</a:ObjectID>
 <a:Name>id_tache</a:Name>
 <a:Code>idTache</a:Code>
@@ -1581,7 +1717,7 @@ LABL 0 Arial,8,N</a:FontList>
 <a:DataType>int</a:DataType>
 <a:Attribute.Visibility>-</a:Attribute.Visibility>
 </o:Attribute>
-<o:Attribute Id="o19">
+<o:Attribute Id="o30">
 <a:ObjectID>AA01C316-C25E-4387-9E24-0686627BDFEF</a:ObjectID>
 <a:Name>titre</a:Name>
 <a:Code>titre</a:Code>
@@ -1592,18 +1728,18 @@ LABL 0 Arial,8,N</a:FontList>
 <a:DataType>String</a:DataType>
 <a:Attribute.Visibility>-</a:Attribute.Visibility>
 </o:Attribute>
-<o:Attribute Id="o20">
+<o:Attribute Id="o31">
 <a:ObjectID>4066380F-99BA-409B-84EA-1015B5F5A73F</a:ObjectID>
 <a:Name>description</a:Name>
 <a:Code>description</a:Code>
 <a:CreationDate>1709034674</a:CreationDate>
 <a:Creator>Solicode</a:Creator>
-<a:ModificationDate>1709557620</a:ModificationDate>
+<a:ModificationDate>1709034688</a:ModificationDate>
 <a:Modifier>Solicode</a:Modifier>
-<a:DataType>String</a:DataType>
+<a:DataType>int</a:DataType>
 <a:Attribute.Visibility>-</a:Attribute.Visibility>
 </o:Attribute>
-<o:Attribute Id="o21">
+<o:Attribute Id="o32">
 <a:ObjectID>B0FEE1CD-080C-4609-8CA5-B789F80C56D6</a:ObjectID>
 <a:Name>date_debut</a:Name>
 <a:Code>dateDebut</a:Code>
@@ -1614,7 +1750,7 @@ LABL 0 Arial,8,N</a:FontList>
 <a:DataType>Date</a:DataType>
 <a:Attribute.Visibility>-</a:Attribute.Visibility>
 </o:Attribute>
-<o:Attribute Id="o22">
+<o:Attribute Id="o33">
 <a:ObjectID>F129810C-945D-4F0B-92C8-C79DD6047F76</a:ObjectID>
 <a:Name>date_fin</a:Name>
 <a:Code>dateFin</a:Code>
@@ -1627,7 +1763,7 @@ LABL 0 Arial,8,N</a:FontList>
 </o:Attribute>
 </c:Attributes>
 <c:Identifiers>
-<o:Identifier Id="o23">
+<o:Identifier Id="o34">
 <a:ObjectID>58834B0D-E6B0-41ED-8647-D50273CFDCA9</a:ObjectID>
 <a:Name>id_tache</a:Name>
 <a:Code>id_tache</a:Code>
@@ -1636,17 +1772,17 @@ LABL 0 Arial,8,N</a:FontList>
 <a:ModificationDate>1709034712</a:ModificationDate>
 <a:Modifier>Solicode</a:Modifier>
 <c:Identifier.Attributes>
-<o:Attribute Ref="o18"/>
+<o:Attribute Ref="o29"/>
 </c:Identifier.Attributes>
 </o:Identifier>
 </c:Identifiers>
 <c:PrimaryIdentifier>
-<o:Identifier Ref="o23"/>
+<o:Identifier Ref="o34"/>
 </c:PrimaryIdentifier>
 </o:Class>
 </c:Classes>
 <c:TargetModels>
-<o:TargetModel Id="o24">
+<o:TargetModel Id="o35">
 <a:ObjectID>4E7BFEC5-992D-4F1A-92D7-A610B3B6B2EC</a:ObjectID>
 <a:Name>Java</a:Name>
 <a:Code>Java</a:Code>
@@ -1661,7 +1797,7 @@ LABL 0 Arial,8,N</a:FontList>
 <o:Shortcut Ref="o3"/>
 </c:SessionShortcuts>
 </o:TargetModel>
-<o:TargetModel Id="o25">
+<o:TargetModel Id="o36">
 <a:ObjectID>FB413B0B-4217-44F4-82C5-970C49AB01F5</a:ObjectID>
 <a:Name>WSDL for Java</a:Name>
 <a:Code>WSDLJava</a:Code>
