@@ -18,11 +18,8 @@ order: 0
 - [Maquettes](#maquettes)
 - [Projet backend](#projet-backend)
 - [Tache backend](#tache-backend)
-- [Projet test](#projet-test)
-- [tache test](#tache-test)
 - [Projet frontend](#projet-frontend)
 - [Tache frontend](#tache-frontend)
 - [Conclusion](#conclusion)
-- 
   
 <!-- new slide -->

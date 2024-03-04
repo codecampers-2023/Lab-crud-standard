@@ -51,14 +51,14 @@ php artisan vendor:publish --provider="AdminLTE\AdminLTEServiceProvider"
 
 **5. Importation des CSS et JavaScript d'AdminLTE**
 
-Dans `public/css/app.css`, importer les CSS d'AdminLTE et Font Awesome :
+Dans `resources/css/app.css`, importer les CSS d'AdminLTE et Font Awesome :
 
 ```css
 @import 'admin-lte/plugins/fontawesome-free/css/all.min.css';
 @import 'admin-lte/dist/css/adminlte.min.css';
 ```
 
-Dans `public/js/app.js`, importer le JavaScript d'AdminLTE :
+Dans `resources/js/app.js`, importer le JavaScript d'AdminLTE :
 
 ```javascript
 import 'admin-lte/dist/js/adminlte';
