@@ -13,6 +13,6 @@
     </tr>
 @empty
     <tr>
-        <td colspan="3" class="text-center">No projects found</td>
+        <td colspan="3" class="text-center">Il ya aucune projet </td>
     </tr>
 @endforelse

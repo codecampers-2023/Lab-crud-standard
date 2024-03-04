@@ -31,7 +31,7 @@
                                         <p>{{ $project->description }}</p>
                                     </div>
                                 @else
-                                    <p>Project not found.</p>
+                                    <p>il ya aucune projet.</p>
                                 @endif
                             </div>
                         </div>

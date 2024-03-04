@@ -31,7 +31,7 @@
                         </div>
 
                         <div id="search_ajax">
-                            @include('Projects.table')
+                            @include('projets.table')
                         </div>
                     </div>
                 </div>

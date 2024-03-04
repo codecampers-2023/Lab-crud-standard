@@ -4,13 +4,13 @@
             <tr>
                 <th>Nom de projet</th>
                 <th>Description</th>
-                <th>view tache </th>
+                <th>voir les taches </th>
                 
             </tr>
         </thead>
         <tbody>
 
-            @include('Projects.projectSearch')
+            @include('Projets.projectSearch')
 
         </tbody>
         <input type="hidden" id='page' value="1">
