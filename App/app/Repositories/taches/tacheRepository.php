@@ -1,5 +1,5 @@
 <?php 
-namespace App\Repositories\taches ;
+namespace App\Repositories\taches;
 use App\Models\taches\Tache;
 use App\Repositories\AppBaseRepository;
 
@@ -25,7 +25,7 @@ class TacheRepository extends AppBaseRepository
     }
  
 
-   public function  getTaskbyprojetId($projetId){
+   public function  getTaskByProjetId($projetId){
     return $this->model->where('projetId', $projetId)->paginate(4);
      
    }
