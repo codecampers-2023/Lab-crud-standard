@@ -17,3 +17,9 @@ img+em {
 section {
     top: 0px !important
 }
+
+.list{
+    margin-top: 0%;
+    size: 150px;
+    font-size: 35px;
+}
