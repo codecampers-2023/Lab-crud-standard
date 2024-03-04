@@ -24,6 +24,5 @@ Les prérequis comprend les étapes suivantes :
   - Préparation de la présentation
 - Conception logicielle sous forme de diagrammes UML 
 {:class="list"}
-
 <!-- new slide -->
 
