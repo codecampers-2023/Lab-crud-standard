@@ -29,15 +29,11 @@
         "Introduction":"",
         "References": [
             {
-                "Titre":"Autoformation",
-                "Lien":"#"
-            },
-            {
-                "rapport":"rapport",
+                "Titre":"rapport",
                 "Lien":"https://labs-web.github.io/lab-crud-standard/"
             },
             {
-                "presentation":"presentation",
+                "Titre":"presentation",
                 "Lien":"https://labs-web.github.io/lab-crud-standard/presentation.html#/"
             }
            
