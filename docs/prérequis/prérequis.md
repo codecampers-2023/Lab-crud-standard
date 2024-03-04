@@ -26,3 +26,4 @@ Les prérequis comprend les étapes suivantes :
 {:class="list"}
 
 <!-- new slide -->
+
