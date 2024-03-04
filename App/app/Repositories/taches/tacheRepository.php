@@ -1,5 +1,5 @@
 <?php 
-namespace App\Repositories\taches ;
+namespace App\Repositories\taches;
 use App\Models\taches\Tache;
 use App\Repositories\AppBaseRepository;
 
