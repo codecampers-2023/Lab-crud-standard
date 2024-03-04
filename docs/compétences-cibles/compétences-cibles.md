@@ -9,7 +9,7 @@ order: 4
 
 # Compétences cibles
 
-![Compétences cibles](./images/skills.png){:class=width }
+![Compétences cibles](./images/skills.png){:width="700px" }
 *figure: Compétences cibles*
 
 <!-- note -->
