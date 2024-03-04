@@ -9,7 +9,7 @@ order: 3
 <!-- new slide -->
 ## Diagramme de cas d'utilisation
 
- ![Diagramme de cas d'utilisation](./images/use-cas.png){:width="750px" }
+ ![Diagramme de cas d'utilisation](./analyse/images/use_cas.png){:width}
 *Figure: Diagramme de cas d'utilisation*
 
 
