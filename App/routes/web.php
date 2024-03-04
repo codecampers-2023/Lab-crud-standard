@@ -2,7 +2,6 @@
 
 use Illuminate\Support\Facades\Route;
 
-use App\Http\Controllers\projets\ProjetController;
 
 /*
 |--------------------------------------------------------------------------
@@ -18,6 +17,7 @@ use App\Http\Controllers\projets\ProjetController;
 // Route::get('/', function () {
 //     return view('welcome');
 // });
-Route::get('/',[ProjetController::class,'index'])->name('home');
-
-Route::resource('projects', ProjetController::class);
+Route::namespace('Projets')->group(function () {
+    // Include routes defined in the 'projets' namespace
+    require __DIR__.'/projets/projet.php';
+});
