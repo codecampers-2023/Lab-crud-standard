@@ -40,7 +40,7 @@
         {{-- <input name="project_id" type="hidden" class="form-control" value="{{ $project->id }}"> --}}
     </div>
     <div class="card-footer">
-        <a href="{{ route('tasks.index', $project->id) }}" class="btn btn-default">Cancel</a>
-        <button type="submit" class="btn btn-primary mx-2">{{ isset($task) ? 'Update' : 'Add' }}</button>
+        <a href="{{ route('tasks.index', $project->id) }}" class="btn btn-default">Annuler</a>
+        <button type="submit" class="btn btn-primary mx-2">{{ isset($task) ? 'Modofier' : 'Ajouter' }}</button>
     </div>
 </form>

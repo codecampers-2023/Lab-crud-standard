@@ -18,7 +18,7 @@
                             <h2 class="card-title"> <i class="nav-icon fas fa-tasks"></i> Modifier Une Tâche</h2>
                         </div>
                         <!-- Inclusion du formulaire -->
-                        @include('tasks.form')
+                        @include('taches.form')
                     </div>
 
                 </div>

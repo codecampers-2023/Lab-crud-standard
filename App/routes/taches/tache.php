@@ -1,7 +1,9 @@
 <?php
+namespace routes\taches;
+
+use App\Http\Controllers\taches\TacheController;
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\taches\tacheController;
 
 Route::get('projects/tasks/{projetId}',[TacheController::class,'index'])->name('projects.tasks');
 

@@ -75,7 +75,7 @@
                             </div>
 
                             <div class="card-body table-responsive p-0">
-                                @include('tasks.table')
+                                @include('taches.table')
                             </div>
 
                         </div>
