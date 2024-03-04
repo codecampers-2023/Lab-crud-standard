@@ -9,10 +9,10 @@ order: 3
 <!-- new slide -->
 
 # Namespac
-![namespac](.\contexte-projet\images\namecpacing.png){:width} *Figure: Namespac*
+![namespac](.\contexte-projet\images\namecpacing.png){:class=width} *Figure: Namespac*
 <!-- new slide -->
 # Repository design pattern
-  ![contexte-de-projet](.\contexte-projet\images\repository.png){:width} *Figure: Contexte de projet*
+  ![contexte-de-projet](.\contexte-projet\images\repository.png){:class=width} *Figure: Contexte de projet*
 
 <!-- note -->
 
