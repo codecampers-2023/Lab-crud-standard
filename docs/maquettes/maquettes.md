@@ -26,6 +26,7 @@ _figure: index_
 
 ![Ajoute](./maquettes/images/add.png){:class=width}_figure: ajoute_
 
+
 <!-- new slide -->
 
 ## Tâches
