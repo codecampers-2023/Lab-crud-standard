@@ -1,13 +1,12 @@
 <?php 
-namespace App\Repositories\taches ;
+namespace App\Repositories\taches;
 use App\Models\taches\Tache;
 use App\Repositories\AppBaseRepository;
 
 
-class Tachepository extends AppBaseRepository
+class TacheRepository extends AppBaseRepository
 {
-    protected $model;
-
+       
     public function __construct(Tache $task){
         $this->model = $task;
     }
@@ -39,7 +38,6 @@ class Tachepository extends AppBaseRepository
       
         return $get_data->paginate(4);
 
-    
     }
  
 }

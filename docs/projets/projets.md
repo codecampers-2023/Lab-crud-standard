@@ -4,9 +4,10 @@ chapitre: Projets backend
 order: 11
 ---
 
-# projets_backend
+# Projets backend
 
 ![Projet backend](./images/backend_text_1.jpg){:width="700px"}
+
 
 <!-- note -->
 
@@ -66,3 +67,5 @@ Command pour inserer projets info sur base donnée en utilisant seeders
 ```bash
 php artisan db:seed --class=Database\Seeders\projets\ProjetsSeeder
 ```
+
+<!-- new slide -->
