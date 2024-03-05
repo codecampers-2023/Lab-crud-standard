@@ -5,23 +5,43 @@ namespace App\Repositories;
 use Illuminate\Database\Eloquent\Model;
 
 abstract class AppBaseRepository {
+   
     protected $model;
 
     public function __construct(Model $model){
+
         $this->model = $model;
     }
-    public function paginatedData($perpage){
-        return $this->model->paginate($perpage);
+  
+    public function find($id) {
+        return $this->model->findOrFail($id);
+    } 
+
+    abstract function getFieldData():array;
+    abstract function model():string;
+
+    public function index(){
+        return $this->model->paginate(4);
     }
-    public function update($validatedData){
-        $this->model->update($validatedData);
+
+    public function create($validatedata){
+        return  $this->model->create($validatedata);
     }
-    public function store(array $validatedData){
-        return $this->model->create($validatedData);
+
+    public function update(array $validatedData, $id) {
+        $data = $this->model->find($id);
+        if(!$data) {
+        return false;
+        }
+        return $data->update($validatedData);
     }
-    public function destroy($Obj){
-        $toDelete = $this->model->find($Obj->id);
-        return $toDelete->delete();
+
+    public function delete($id) {    
+        $data = $this->model->find($id);
+        if(!$data) {
+        return false;
+        }   
+        return $data->delete($id);
     }
     
 }
