@@ -18,5 +18,4 @@ Ce **lab crud laravel standard** est un projet qui vise à ajouter les opératio
 
 L'objectif de ce projet est de fournir une base solide pour le développement d'applications Laravel avec des fonctionnalités courantes déjà implémentées.
 
-
 <!-- new slide -->
