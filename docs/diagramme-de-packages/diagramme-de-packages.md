@@ -8,7 +8,7 @@ order: 6
 # Diagramme de packages
 
 
-![Diagramme de packages](./diagramme-de-packages/images/diagramme-des-packages.png){:width="700px"}*Figure: Diagramme de packages*
+![Diagramme de packages](./diagramme-de-packages/images/diagramme-des-packages.png){:width}*Figure: Diagramme de packages*
 
 <!-- note -->
 Les diagrammes de package (ou diagramme de paquetages) sont des diagrammes structurels utilisés pour représenter l'organisation et la disposition de divers éléments modélisés sous forme de paquetages. Un paquetage est un regroupement d'éléments UML apparentés, tels que des diagrammes, des documents, des classes ou même d'autres paquetages.
