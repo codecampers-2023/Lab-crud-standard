@@ -18,7 +18,7 @@ class TachesSeeder extends Seeder
         $tachesData =[
 
             [
-                'nom' => 'choisir le thème pour CNMH2',
+                'nom' => 'choisir le thème',
                 'description' => 'choisir le thème pour créer un portfolio',
                 'projetId' => '1',
             ],
