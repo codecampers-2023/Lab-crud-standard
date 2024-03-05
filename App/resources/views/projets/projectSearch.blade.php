@@ -1,7 +1,7 @@
 @forelse ($Projects as $project)
     <tr>
         <td>{{ $project->nom }}</td>
-        <td>{{ Str::limit($project->description, 30) }} <a href="{{ route('projects.show', $project->id) }}"> plus...</a></td>        <td>
+        <td>{{ Str::limit($project->description, 30) }}</td>        <td>
         <td>
             <a href="{{ route('projects.show', ['project' => $project->id]) }}" class='btn btn-default btn-sm'>
                 <i class="far fa-eye"></i>
