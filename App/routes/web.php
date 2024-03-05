@@ -2,8 +2,17 @@
 
 use Illuminate\Support\Facades\Route;
 
+/*
+|--------------------------------------------------------------------------
+| Web Routes
+|--------------------------------------------------------------------------
+|
+| Here is where you can register web routes for your application. These
+| routes are loaded by the RouteServiceProvider and all of them will
+| be assigned to the "web" middleware group. Make something great!
+|
+*/
 
-Route::namespace('Taches')->group(function () {
-    // Include routes defined in the 'taches' namespace 
-    require __DIR__.'/taches/tache.php';
-});
+// Route::get('/', function () {
+//     return view('welcome');
+// });
