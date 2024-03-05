@@ -1,9 +1,6 @@
 <?php
-namespace routes\projets;
-
-use App\Http\Controllers\projets\ProjetController;
-
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\projets\ProjetController;
 
 Route::get('/',[ProjetController::class,'index'])->name('home');
 
