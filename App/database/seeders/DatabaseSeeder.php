@@ -2,10 +2,13 @@
 
 namespace Database\Seeders;
 
-// use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
-use Database\Seeders\projets\ProjetsSeeder;
-use Database\Seeders\taches\TachesSeeder;
+use Symfony\Component\Uid\NilUuid;
+
+use Database\Seeders\projets\{
+    ProjetsSeeder,
+};
+
 
 class DatabaseSeeder extends Seeder
 {
@@ -14,9 +17,14 @@ class DatabaseSeeder extends Seeder
      */
     public function run(): void
     {
-        $this->call([
-            ProjetsSeeder::class,
-            TachesSeeder::class,
-        ]);
+        $classes = [];
+        $classes = array_merge(
+            GestionProjets::Classes(),
+            GestionTaches::Classes()
+
+        );
+        $this->call($classes);
+
     }
+
 }

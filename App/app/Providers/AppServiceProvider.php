@@ -20,11 +20,11 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot(): void
     {
-        Paginator::useBootstrap();
         $migrationsPath = database_path('migrations');
         $paths = $this->getAllSubdirectoriesOptimized($migrationsPath);
 
         $this->loadMigrationsFrom($paths);
+        Paginator::useBootstrap();
     }
 
     function getAllSubdirectoriesOptimized($dir)
