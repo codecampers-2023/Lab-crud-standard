@@ -1,7 +1,7 @@
 ---
 layout: default
 chapitre: Contexte projet
-order: 3
+order: 2
 ---
 
 # Contexte de projet
