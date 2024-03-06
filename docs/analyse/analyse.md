@@ -1,7 +1,7 @@
 ---
 layout: default
 chapitre: Analyse
-order: 3
+order: 5
 ---
 # Analyse
  {:class="sectionHeader"}
@@ -9,7 +9,7 @@ order: 3
 <!-- new slide -->
 ## Diagramme de cas d'utilisation
 
- ![Diagramme de cas d'utilisation](./analyse/images/use_cas.png){:width}
+ ![Diagramme de cas d'utilisation](./analyse/images/use_cas.png){:class=width}
 *Figure: Diagramme de cas d'utilisation*
 
 
