@@ -8,6 +8,7 @@ order: 2
 {:class="sectionHeader"}
 <!-- new slide -->
 
+
 # Namespac
 ![namespac](.\contexte-projet\images\namecpacing.png){:class=width} *Figure: Namespac*
 <!-- new slide -->
