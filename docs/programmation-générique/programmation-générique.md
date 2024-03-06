@@ -5,7 +5,7 @@ order: 8
 ---
 # Programmation générique
 
-![generics](/programmation-générique/images/ginirique.png){:width}_Figure: programmation générique_
+![generics](./programmation-générique/images/ginirique.png){:width}_Figure: programmation générique_
 
 
 <!-- note -->
