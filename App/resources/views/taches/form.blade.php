@@ -41,6 +41,6 @@
     </div>
     <div class="card-footer">
         <a href="{{ route('tasks.index', $project->id) }}" class="btn btn-default">Annuler</a>
-        <button type="submit" class="btn btn-primary mx-2">{{ isset($task) ? 'Modofier' : 'Ajouter' }}</button>
+        <button type="submit" class="btn btn-primary mx-2">{{ isset($task) ? 'Modifier' : 'Ajouter' }}</button>
     </div>
 </form>
