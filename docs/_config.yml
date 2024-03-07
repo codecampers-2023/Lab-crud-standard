@@ -1,5 +1,5 @@
 # Build settings
-# baseurl: "/besoin"
+baseurl: "/lab-crud-standard"
 
 # lsi: false
 # safe: true

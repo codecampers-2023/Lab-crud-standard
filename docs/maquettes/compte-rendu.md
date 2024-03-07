@@ -15,6 +15,7 @@ npm install admin-lte@^3.2 --save
 ```bash
 php -S localhost:8000
 ```
+{:class="list"}
 <!-- note -->
 
 
