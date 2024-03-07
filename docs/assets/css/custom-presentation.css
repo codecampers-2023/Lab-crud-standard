@@ -1,0 +1,52 @@
+.sectionHeader {
+    margin: 20% 0 !important;
+}
+
+.hiddenPresentation {
+    display: none !important;
+}
+.min_titre {
+    font-size: 30px !important;
+}
+
+
+/* Ne pas afficher les noms des figures */
+img+em {
+    display: none;
+}
+
+section {
+    top: 0px !important
+}
+img {
+    width: 100% !important;
+}
+/* le style pour list  dons le slide */
+ul{
+    margin-top: 0%;
+    size: 500%;
+    font-size: 35px;
+}
+
+/* le style pour list et  images dons les mème slide    */
+.slide-liste {
+    
+    flex: 1 1 0px;
+    font-size: x-large !important;
+    margin-top: 100px !important;
+    margin-right: 300px !important;
+    float: right;
+}
+.slide-image {
+    
+    flex: 1 1 0px;
+    font-size: larger !important;
+    margin-top: 100px !important;
+    /* margin-right: 100px !important; */
+    float: right;
+}
+.slide-image {
+    width: 40% !important;
+
+
+}
