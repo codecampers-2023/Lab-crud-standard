@@ -1,6 +1,6 @@
 <?php
 
-namespace Database\Seeders\taches;
+namespace Database\Seeders\GestionProjets;
 
 use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
