@@ -43,23 +43,6 @@
 </div>
 
 <div class="d-flex justify-content-between align-items-center p-2">
-    <div class="d-flex align-items-center mb-2 ml-2 mt-2">
-        <form action="{{ route('projets.import') }}" method="post" class="mt-2" enctype="multipart/form-data"
-            id="importForm">
-            @csrf
-            <label for="upload" class="btn btn-default btn-sm">
-                <i class="fa-solid fa-file-arrow-down"></i>
-                {{__('GestionProjets/projet/message.import')}}
-            </label>
-            <input type="file" id="upload" name="file" style="display:none;" onchange="submitForm()" />
-        </form>
-        <form>
-            <a href="{{ route('projets.export') }}" class="btn  btn-default btn-sm mt-0 mx-2 text-bold">
-            <i class="fa-solid fa-file-export"></i>
-            {{__('GestionProjets/projet/message.export')}}</a>
-        </form>
-        
-    </div>
     <div class="">
         <ul class="pagination  m-0 float-right">
             {{ $projectData->links() }}
