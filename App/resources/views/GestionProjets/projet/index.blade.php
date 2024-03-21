@@ -43,7 +43,7 @@
     $(document).ready(function() {
         function fetchData(page, searchValue) {
             $.ajax({
-                url: '/projets/?page=' + page + '&searchValue=' + searchValue,
+                url: '/?page=' + page + '&searchValue=' + searchValue,
                 success: function(data) {
                     var newData = $(data);
 
