@@ -20,27 +20,38 @@ class TachesSeeder extends Seeder
             [
                 'nom' => 'choisir le thème',
                 'description' => 'choisir le thème pour créer un portfolio',
-                'projetId' => '1',
+                'date_debut' => '2024-03-20',
+                'date_de_fin' => '2024-03-29',
+                'project_id' => '1'
+
             ],
             [
                 'nom' => 'Choix des Technologies',
                 'description' => 'Évaluation et sélection des technologies les plus adaptées pour développer l\'application Arbre des Compétences.',
-                'projetId' => '2',
+                'date_debut' => '2024-03-20',
+                'date_de_fin' => '2024-03-29',
+                'project_id' => '1'
             ],
             [
                 'nom' => 'Design wireframes for CNMH Application',
                 'description' => 'Create wireframes detailing the layout and functionalities of the CNMH application.',
-                'projetId' => '3',
+                'date_debut' => '2024-03-20',
+                'date_de_fin' => '2024-03-29',
+                'project_id' => '1'            
             ],
             [
                 'nom' => 'Develop basic database structure',
                 'description' => 'Design and implement the basic database structure for the CNMH application.',
-                'projetId' => '3',
+                'date_debut' => '2024-03-20',
+                'date_de_fin' => '2024-03-29',
+                'project_id' => '1'            
             ],
             [
                 'nom' => 'Build user authentication system',
                 'description' => 'Implement user authentication and authorization functionalities for the CNMH application.',
-                'projetId' => '2',
+                'date_debut' => '2024-03-20',
+                'date_de_fin' => '2024-03-29',
+                'project_id' => '1'            
             ],
 
         ];
