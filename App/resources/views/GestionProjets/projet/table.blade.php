@@ -21,7 +21,7 @@
                         </a>
                     </td>
                     <td class="text-center">
-                        <a href="{{ route('projets.show', $project) }}" class="btn btn-default btn-sm">
+                        <a href="" class="btn btn-default btn-sm">
                             <i class="far fa-eye"></i>
                         </a>
                     </td>
