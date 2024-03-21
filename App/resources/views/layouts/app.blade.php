@@ -24,10 +24,7 @@
                             <li class="user-header bg-primary">
                                 <img src="https://assets.infyom.com/logo/blue_logo_150x150.png"
                                     class="img-circle elevation-2" alt="User Image">
-                                <p>
-                                    {{ Auth::user()->name }}
-                                    <small>Member since {{ Auth::user()->created_at->format('M. Y') }}</small>
-                                </p>
+                               
                             </li>
                             <!-- Menu Footer-->
                             <li class="user-footer">
@@ -36,9 +33,7 @@
                                     onclick="event.preventDefault(); document.getElementById('logout-form').submit();">
                                     Sign out
                                 </a>
-                                <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
-                                    @csrf
-                                </form>
+                                
                             </li>
                         </ul>
                     </li>
