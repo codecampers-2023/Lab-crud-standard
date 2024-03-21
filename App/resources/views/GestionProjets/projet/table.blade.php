@@ -24,17 +24,6 @@
                         <a href="{{ route('projets.show', $project) }}" class="btn btn-default btn-sm">
                             <i class="far fa-eye"></i>
                         </a>
-                        <a href="{{ route('projets.edit', $project) }}" class="btn btn-sm btn-default">
-                            <i class="fa-solid fa-pen-to-square"></i>
-                        </a>
-                        <form action="{{ route('projets.destroy', $project) }}" method="POST" style="display: inline;">
-                            @csrf
-                            @method('DELETE')
-                            <button type="submit" class="btn btn-sm btn-danger"
-                                onclick="return confirm('Êtes-vous sûr de vouloir supprimer ce projet ?')">
-                                <i class="fa-solid fa-trash"></i>
-                            </button>
-                        </form>
                     </td>
                 </tr>
             @endforeach
