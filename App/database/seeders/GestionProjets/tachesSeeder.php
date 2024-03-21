@@ -1,11 +1,11 @@
 <?php
 
-namespace Database\Seeders\taches;
+namespace Database\Seeders\GestionProjets;
 
 use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\DB;
-use App\Models\taches\tache;
+use App\Models\GestionProjets\Task;
 
 
 class TachesSeeder extends Seeder
@@ -45,7 +45,7 @@ class TachesSeeder extends Seeder
 
         ];
          foreach ($tachesData as $tacheData) {
-            Tache::create($tacheData);
+            Task::create($tacheData);
         }
     }
 }
