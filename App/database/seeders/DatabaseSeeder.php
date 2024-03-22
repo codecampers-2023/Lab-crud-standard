@@ -2,8 +2,13 @@
 
 namespace Database\Seeders;
 
-// use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
+use Symfony\Component\Uid\NilUuid;
+
+use Database\Seeders\projets\{
+    ProjetsSeeder,
+};
+
 
 class DatabaseSeeder extends Seeder
 {
@@ -12,11 +17,14 @@ class DatabaseSeeder extends Seeder
      */
     public function run(): void
     {
-        // \App\Models\User::factory(10)->create();
+        $classes = [];
+        $classes = array_merge(
+            GestionProjets::Classes(),
+            GestionTaches::Classes()
 
-        // \App\Models\User::factory()->create([
-        //     'name' => 'Test User',
-        //     'email' => 'test@example.com',
-        // ]);
+        );
+        $this->call($classes);
+
     }
+
 }
