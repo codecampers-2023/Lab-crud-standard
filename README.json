@@ -31,6 +31,14 @@
             {
                 "Titre":"Autoformation",
                 "Lien":"#"
+            },
+            {
+                "rapport":"rapport",
+                "Lien":"https://labs-web.github.io/lab-crud-standard/"
+            },
+            {
+                "presentation":"presentation",
+                "Lien":"https://labs-web.github.io/lab-crud-standard/presentation.html#/"
             }
            
         ]
