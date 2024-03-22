@@ -13,7 +13,6 @@ class ProjetRepository extends BaseRepositorie {
         $this->model = $projet;
     }
 
-    
     public function searchData($searchableData, $perPage = 4)
     {
         return $this->model->where(function ($query) use ($searchableData) {
