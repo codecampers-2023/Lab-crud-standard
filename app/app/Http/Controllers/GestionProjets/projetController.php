@@ -6,7 +6,7 @@ use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use App\Repositories\GestionProjets\ProjetRepository;
 
-class projetController extends Controller
+class ProjetController extends Controller
 {
     protected $projectRepository;
     public function __construct(ProjetRepository $projetRepository)
