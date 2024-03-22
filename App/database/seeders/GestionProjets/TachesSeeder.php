@@ -7,7 +7,6 @@ use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\DB;
 use App\Models\GestionProjets\Task;
 
-
 class TachesSeeder extends Seeder
 {
     /**
