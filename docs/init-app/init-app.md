@@ -89,6 +89,12 @@ Utilisez les templates et les composants d'AdminLTE dans vos vues Blade.
 
 Modifier les variables CSS d'AdminLTE ou créer votre propre thème pour adapter le design aux besoins du projet.
 
+**12. Installaion de package excel**
+
+```bash
+composer require Maatwebsite\Excel
+```
+
 
 **Ressources utiles**
 
