@@ -38,9 +38,13 @@ class ImportTask implements ToModel, WithHeadingRow
         ]);
     }
 
-    private function convertToValidDate($numericDate)
+    private function convertToValidDate($Date)
     {
-        $unixTimestamp = ($numericDate - 25569) * 86400;
-        return date('Y-m-d', $unixTimestamp);
+        if (is_numeric($Date)) {
+            $unixTimestamp = ($Date - 25569) * 86400;
+            return $unixTimestamp;
+        } else {
+            return $Date;
+        }
     }
 }
