@@ -23,8 +23,10 @@ class TacheRequest extends FormRequest
     {
         return [
             'nom' => 'required|max:40',
-            'projetId' => 'required',
-            'description' => 'nullable',
+            'description' => 'required',
+            'date_debut' => 'required',
+            'date_de_fin' => 'required',
+            'project_id' => 'required',
         ];
     }
 }
