@@ -8,7 +8,7 @@ use App\Http\Controllers\Controller;
 use Maatwebsite\Excel\Facades\Excel;
 use Illuminate\Support\Facades\Redirect;
 use App\Exports\GestionProjets\TaskExport;
-use App\Http\Requests\taches\TacheRequest;
+use App\Http\Requests\GestionProjets\taskRequest;
 use App\Imports\GestionProjets\ImportTask;
 use App\Repositories\GestionProjets\TaskRepository;
 use App\Repositories\GestionProjets\ProjetRepository;
@@ -64,7 +64,7 @@ class TaskController extends Controller
         return view('GestionProjets.task.create', compact('projects'));
     }
 
-    public function store(TacheRequest $request)
+    public function store(taskRequest $request)
     {
         $data = $request->validated();
         $this->taskRepository->create($data);
@@ -78,7 +78,7 @@ class TaskController extends Controller
         return view('GestionProjets.task.edit', compact('task', 'projects'));
     }
 
-    public function update(TacheRequest $request, $task_id)
+    public function update(taskRequest $request, $task_id)
     {
         $data = $request->validated();
         $this->taskRepository->update($task_id, $data);
